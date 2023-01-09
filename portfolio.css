@@ -1,0 +1,433 @@
+@charset "UTF-8";
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+body, h1, h2, h3, h4, h5, h6, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.inner02 {
+  text-align: rigth;
+}
+
+.header {
+  margin-top: 43px;
+  margin-bottom: 44px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid black;
+}
+
+.nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav a:hover {
+  color: #ea8c06;
+}
+
+.nav li:not(:last-child) {
+  padding-right: 40px;
+}
+
+.header .nav ul {
+  margin-top: 0px;
+  font-size: 16px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 1080px;
+  margin: 10px auto 74px;
+  padding: 0 20px;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ }
+
+ .hero h3 {
+  font-size: 24px;
+ }
+
+ .hero .cont-1 {
+  flex: 0 0 500px;
+  margin: 130px -20px 50px 0px;
+
+}
+
+.msg {
+  background-image:linear-gradient(45deg, #e9f6ffc4 50%, #caebff 50%);
+  background-size: 30px 30px;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  padding: 90px 20px;
+  box-sizing: border-box;
+}
+
+.msg h2, .msg p {
+  color: rgb(0, 0, 0);
+  max-width: 570px;
+  margin-right: 0;
+  margin-left: auto;
+  text-align: left;
+}
+
+.plofile {
+  max-width: 1080px;
+  margin: 50px auto 110px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.plofile h2 {
+  margin-top: 18px;
+  margin-bottom: 72px;
+  font-weight: 900;
+}
+
+.plofile h3 {
+  margin-top: 18px;
+  margin-bottom: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.plofile p {
+  margin-top: 46px;
+  margin-bottom: 0;
+  text-align: left;
+  font-size: 16px;
+}
+
+.plofile img {
+  width: 150px;
+  border: solid 5px #c3e7b2;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.introduction {
+  display: flex;
+  align-items: center;
+}
+
+.introduction figure {
+  flex: 0 0 210px;
+}
+
+.introduction img {
+  width: 100%;
+}
+
+.introduction .explanation {
+  margin-left: 40px;
+  margin-right: 9%;
+  text-align: left;
+}
+
+.introduction:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.introduction:nth-child(odd) .explanation {
+  margin-right: 40px;
+  margin-left: 9%;
+}
+
+.introduction:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.my-site {
+  background-color: rgb(233, 255, 244);
+  margin: 50px auto 100px;
+  max-width: 1070px;
+  padding: 20px 10px;
+}
+
+.my-site h2 {
+  font-size: 24px;
+  margin-top: 18px;
+  margin-bottom: 57px;
+  text-align: center;
+}
+
+.my-site .site-lineup {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 32px;
+}
+
+.my-site .site-page {
+  width: 30%;
+}
+
+.site-page p {
+  font-size: 14px;
+}
+
+.my-site img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.my-site .thumbnail {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 25% 10%;
+}
+
+.my-site .site-name {
+  font-size:16px;
+}
+
+.my-site .invisible {
+  visibility:hidden;
+}
+
+.coment {
+  background-image:linear-gradient(45deg, #82ccfd3b 50%, #f1f9fd6e 50%);
+  background-size: 30px 30px;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  padding: 90px 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.coment h2 {
+  margin: 0;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.coment button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 15%;
+}
+
+.footer {
+  margin-top: 36px;
+  margin-bottom: 36px;
+ }
+
+.footer .nav ul {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+.address {
+  margin-top: 13px;
+  margin-bottom: 0;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.copy {
+  margin-top: 19px;
+  font-size: 12px;
+}
+
+/*モバイルサイズ*/
+@media screen and (max-width: 420px) {
+ 
+  p {
+    font-size: 14px;
+  }
+
+  .header {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 18px;
+    text-align: center;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+
+  .header li {
+    font-size: 12px;
+  }
+
+  .nav li:not(:last-child) {
+    padding-right: 20px;
+  }
+
+  .header .nav ul {
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+
+  .hero {
+    display: block;
+    margin-top: 0 auto;
+    padding: 0;
+  }
+
+ .hero img {
+  height: 430px;
+ }
+
+ .hero .cont-1 {
+  margin: -35px 20px 74px;
+ }
+ 
+ .msg {
+  margin: 0 0 60px 0;
+  }
+
+ .msg h2, .msg p {
+    color: rgb(0, 0, 0);
+    max-width: 100%;
+    margin:0 auto;
+ }
+
+ .msg h2 {
+  text-align: center;
+  margin-bottom: 15px;
+ }
+
+ .plofile {
+  margin-bottom: 90px;
+ }
+
+ .plofile h2 {
+  margin-bottom: 60px;
+  font-size: 24px;
+ }
+
+ .plofile h3 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+ }
+
+ .plofile p {
+   margin-top: 20px;
+ }
+
+ .plofile img {
+  width: 82px;
+ }
+
+ .introduction {
+  display: block;
+ }
+
+ .introduction:not(:last-child) {
+  margin-bottom: 64px;
+}
+
+.introduction .explanation {
+  margin-left: initial;
+  margin-right: initial;
+}
+
+.introduction:nth-child(odd) .explanation {
+  margin-right: initial;
+  margin-left: initial;
+}
+
+
+.my-site h2 {
+  font-size: 24px;
+  margin-top: 12px;
+  margin-bottom: 47px;
+}
+
+.my-site .site-lineup {
+  display: block;
+}
+
+ .my-site .site-page {
+  width: 100%;
+   margin-bottom: 50px;
+   text-align: center;
+ }
+ 
+ .my-site .site-page img {
+  width: 75%;
+  margin-bottom: 15px;
+ }
+
+ .my-site p {
+  text-align: left;
+  margin: 0 5%;
+}
+
+ .my-site .invisible {
+  display: none;
+ }
+
+ .coment {
+  padding: 65px 15px;
+ }
+
+ .coment h2 {
+  font-size: 20px;
+ }
+
+ .footer {
+  display: block;
+ }
+
+ .footer .nav ul {
+  margin-top: 35px;
+  font-size: 11px;
+ }
+
+ .copy {
+  margin-top: 11px;
+  margin-bottom: 0;
+  font-size: 11px;
+}
+
+}
